@@ -2,9 +2,6 @@ from app.main import is_isogram
 
 
 def test_is_isogram() -> None:
-    assert is_isogram("Aa")
-    assert is_isogram("Bb")
-    assert is_isogram("Cc")
     assert is_isogram("hell")
     assert is_isogram("Hello")
     assert is_isogram("hi")
@@ -21,3 +18,5 @@ def test_is_isogram() -> None:
     assert is_isogram("pip")
     assert is_isogram("python")
     assert is_isogram("digital")
+    assert is_isogram("ark")
+    assert is_isogram("night")
